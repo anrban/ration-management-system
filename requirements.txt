@@ -1,0 +1,10 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+sqlalchemy==2.0.30
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.1
+pydantic[email]==2.7.1
+rapidfuzz==3.9.3
+python-multipart==0.0.22
+
+#in venv used python 3.11 as 3.14 is too new for some dependencies, but this should be updated when the dependencies are updated to support 3.14    

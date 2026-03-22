@@ -1,0 +1,32 @@
+# Virtual environment — never upload this
+venv/
+
+# Database file — contains real data, never upload
+ration.db
+
+# Secret keys and environment variables
+.env
+*.env
+
+# Interview prep and frontend — personal files
+INTERVIEW_PREP.md
+FILE_EXPLANATIONS.md
+ration_frontend.html
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+.pytest_cache/
+htmlcov/
